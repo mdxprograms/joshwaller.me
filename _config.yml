@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Josh Waller
+tagline:          'A place for my projects and tech blog'
+description:      'mdxprograms.github.io - Josh Waller on github'
+url:              https://mdxprograms.github.io
+baseurl:          /
+
+author:
+  name:           'Josh Waller'
+  url:            https://twitter.com/mdxprograms
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/mdxprograms/mdxprograms.github.io
