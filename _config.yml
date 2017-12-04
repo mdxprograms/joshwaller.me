@@ -1,14 +1,10 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            Josh Waller
 tagline:          'A place for my projects and tech blog'
-description:      'mdxprograms.github.io - Josh Waller on github'
+description:      'mdxprograms.github.io'
 url:              https://mdxprograms.github.io
 baseurl:          /
 
