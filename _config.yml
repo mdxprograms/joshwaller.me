@@ -1,21 +1,25 @@
 # Permalinks
-permalink:        /:categories/:title
+permalink: /:categories/:title
 
 # Setup
-title:            Josh Waller
-tagline:          'A place for my projects and tech blog'
-description:      'mdxprograms.github.io'
-url:              https://mdxprograms.github.io
-baseurl:          /
+baseurl: "/"
+title: "Josh Waller"
+url: "https://mdxprograms.github.io"
 
 author:
-  name:           'Josh Waller'
-  url:            https://twitter.com/mdxprograms
+  name: 'Josh Waller'
+  url: "https://twitter.com/mdxprograms"
 
-paginate:         5
-
-# Custom vars
-version:          2.1.0
+paginate: 5
 
 github:
-  repo:           https://github.com/mdxprograms/mdxprograms.github.io
+  url: "https://github.com/mdxprograms"
+  repo: "https://github.com/mdxprograms/mdxprograms.github.io"
+
+# build
+incremental: true
+
+collections:
+  resources:
+    output: true
+    permalink: /resources/:path

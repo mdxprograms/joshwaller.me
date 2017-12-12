@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>{{ page.title }} Resources</h1>
+
+{% if page.logo %}
+  <img class="resources__logo-link" src="/public/images/logos/{{ page.logo }}" alt="{{ page.title }}">
+{% endif %}
+
+{% if page.url contains "resources" and page.title != "All" %}
+  <a href="/resources">Back to Resources</a>
+{% endif %}
+
+<hr>
+
+{{content}}

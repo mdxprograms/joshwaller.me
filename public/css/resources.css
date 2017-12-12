@@ -1,0 +1,9 @@
+.resources {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resources__logo-link {
+  width: 33%;
+}
