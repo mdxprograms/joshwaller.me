@@ -1,25 +1,25 @@
-# Permalinks
-permalink: /:categories/:title
-
-# Setup
-baseurl: "/"
-title: "Josh Waller"
-url: "https://mdxprograms.github.io"
-
-author:
-  name: 'Josh Waller'
-  url: "https://twitter.com/mdxprograms"
-
-paginate: 5
-
-github:
-  url: "https://github.com/mdxprograms"
-  repo: "https://github.com/mdxprograms/mdxprograms.github.io"
-
-# build
-incremental: true
-
+---
+title: Josh Waller
+timezone: UTC
 collections:
-  resources:
+  posts:
+    title: Posts
     output: true
-    permalink: /resources/:path
+  resources:
+    title: Resources
+    output: true
+    permalink: "/resources/:path"
+  uploads:
+    title: Uploads
+    output: true
+permalink: "/:categories/:title"
+baseurl: "/"
+url: https://mdxprograms.github.io
+author:
+  name: Josh Waller
+  url: https://twitter.com/mdxprograms
+paginate: 5
+github:
+  url: https://github.com/mdxprograms
+  repo: https://github.com/mdxprograms/mdxprograms.github.io
+incremental: true
