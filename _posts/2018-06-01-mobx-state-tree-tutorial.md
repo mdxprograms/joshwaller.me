@@ -1,6 +1,6 @@
 ---
 title: MobX State Tree Tutorial
-date: 2018-06-01 20:00:00 -04:00
+date: 2018-06-01 17:00:00 +0000
 categories:
 - react
 - mobx
