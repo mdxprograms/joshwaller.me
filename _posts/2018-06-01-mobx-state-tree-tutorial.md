@@ -1,11 +1,11 @@
 ---
 title: MobX State Tree Tutorial
-date: 2018-06-02 00:00:00 +0000
-layout: post
+date: 2018-06-01 20:00:00 -04:00
 categories:
 - react
 - mobx
 - tutorial
+layout: post
 ---
 
 In this tutorial we are going to use the following:
