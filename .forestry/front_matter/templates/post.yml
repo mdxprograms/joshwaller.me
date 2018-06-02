@@ -1,0 +1,23 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  hidden: false
+- type: tag_list
+  name: categories
+  label: Categories
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: post
+pages:
+- _posts/2018-06-02-mobx-state-tree-tutorial.md
