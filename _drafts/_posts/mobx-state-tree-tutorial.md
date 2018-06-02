@@ -1,5 +1,6 @@
 ---
 title: MobX State Tree Tutorial
+date: 2018-06-01 20:00:00 -04:00
 layout: post
-date: 2018-06-02 00:00:00 +0000
 ---
+
