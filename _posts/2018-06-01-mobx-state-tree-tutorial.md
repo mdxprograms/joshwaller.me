@@ -5,7 +5,7 @@ categories:
 - react
 - mobx
 - tutorial
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 layout: post
 ---
 

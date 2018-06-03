@@ -1,5 +1,6 @@
 ---
 title:                      Josh Waller
+timezone:                   America/New_York
 highlighter:                none
 markdown:                   kramdown
 kramdown:
@@ -7,6 +8,9 @@ kramdown:
       disable :             true
 timezone:                   America/New_York
 collections:
+  posts:
+    title:                  Posts
+    output:                 true
   projects:
     title:                  Projects
     output:                 true
