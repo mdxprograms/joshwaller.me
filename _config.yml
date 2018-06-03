@@ -1,29 +1,25 @@
 ---
-title: Josh Waller
-timezone: America/New_York
+title:         Josh Waller
+timezone:      America/New_York
 collections:
-  posts:
-    title: Posts
-    output: true
   projects:
-    title: Projects
-    output: true
-    layout: page
+    title:     Projects
+    output:    true
+    layout:    page
   resources:
-    title: Resources
-    output: true
+    title:     Resources
+    output:    true
     permalink: "/resources/:path"
   uploads:
-    title: Uploads
-    output: true
-permalink: "/:categories/:title"
-baseurl: "/"
-url: https://mdxprograms.github.io
+    title:     Uploads
+    output:    true
+permalink:     /blog/:slug
+baseurl:       "/"
+url:           https://mdxprograms.github.io
 author:
-  name: Josh Waller
-  url: https://twitter.com/mdxprograms
-paginate: 5
+  name:        Josh Waller
+  url:         https://twitter.com/mdxprograms
+paginate:      5
 github:
-  url: https://github.com/mdxprograms
-  repo: https://github.com/mdxprograms/mdxprograms.github.io
-incremental: true
+  url:         https://github.com/mdxprograms
+  repo:        https://github.com/mdxprograms/mdxprograms.github.io
