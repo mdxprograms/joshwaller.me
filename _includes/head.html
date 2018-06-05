@@ -20,6 +20,11 @@
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/resources.css">
   <link rel="stylesheet" href="/public/css/logos.css">
+  {% if page.css %}
+    {% for css in page.css %}
+      <link rel="stylesheet" href="/public/css/{{css}}" type="text/css">
+    {% endfor %}
+  {% endif %}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->

@@ -1,0 +1,27 @@
+---
+title: Contact
+layout: default
+css:
+  - contact.css
+---
+
+<div class="contact-page">
+  <form action="https://formspree.io/mdx.programs@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <input type="hidden" name="_next" value="https://joshwaller.me/thank-you" />
+    <h1>
+      Contact
+    </h1>
+
+    <label for="name">Name
+      <input autofocus id="name" type="text" name="name" required>
+    </label>
+    <label for="email">Email
+      <input id="email" type="email" name="_replyto" required>
+    </label>
+    <label for="message">Message
+      <textarea name="message" id="message" required></textarea>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</div>

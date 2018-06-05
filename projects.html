@@ -1,20 +1,21 @@
 ---
 title: Projects
 layout: default
+css:
+ - projects.css
 ---
 
 <h1>Projects</h1>
 
 <div class="projects">
   {% for project in site.data.projects %}
-    <div class="projects__preview">
-      <a
-        style="background: url(/public/images/projects/{{project.image}});"
-        href="{{project.url}}"
-        target="_blank"
-      >
-        <h3>{{project.title}}</h3>
-      </a>
-    </div>
+    <a
+      href="{{project.url}}"
+      target="_blank"
+      class="projects__preview"
+    >
+    <img src="/public/images/projects/{{project.image}}" alt="{{project.title}} screenshot"/>
+      <h3>{{project.title}}</h3>
+    </a>
   {% endfor %}
 </div>

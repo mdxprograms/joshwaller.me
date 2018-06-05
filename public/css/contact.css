@@ -1,0 +1,55 @@
+.contact-page {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.contact-page form {
+  width: 100%;
+}
+
+.contact-page form, form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page form label, form button {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.contact-page form label {
+  font-size: 1.5em;
+}
+
+.contact-page form input, form textarea, button {
+  border: .17rem solid #333;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 1px #333;
+  font-size: .7em !important;
+  outline: none;
+  padding: .5rem 1rem;
+}
+
+.contact-page form textarea {
+  height: 20vh;
+  padding: .8rem;
+}
+
+.contact-page form button {
+  background: #202020;
+  border: 2px solid transparent;
+  color: #fff;
+  font-size: 1.1em !important;
+}
+
+.contact-page form button:hover {
+  background: #d28445;
+}
+
+@media (min-width: 720px) {
+  .contact-page form {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
