@@ -1,0 +1,72 @@
+[
+  {
+    "title": "ExactTarget",
+    "url": "https://www.marketingcloud.com",
+    "type": "work",
+    "image": "exacttarget.png",
+    "description": "Worked with 3 other developers and 5 designers to create engaging visuals and interactivity for marketing customers. Worked with Drupal, Ember, Sass, internal and external API's, and our custom cdn theme for marketing cloud"
+  },
+  {
+    "title": "salesforce",
+    "url": "https://www.salesforce.com",
+    "type": "work",
+    "image": "salesforce.png",
+    "description": "Worked remotely with the www frontend team in San Francisco. Helped build out new functionality for their custom guided tour. Worked on the dreamforce site using Angularjs. Helped lead the Indianapolis web team in rebuilding their current development team to focus on exacttarget.com and all other sub sites"
+  },
+  {
+    "title": "Costello",
+    "url": "https://andcostello.com",
+    "type": "work",
+    "image": "costello.png",
+    "description": "Helped build out MVP for a new sales discovery app that helps guide SDR's and sales teams to successful processes."
+  },
+  {
+    "title": "IU Health Careers",
+    "url": "http://careers.iuhealth.org",
+    "type": "work",
+    "image": "iuhealth-careers.png",
+    "description": "Created IU Health's new careers site using Craft CMS. Developed a custom plugin to download xml data from 3 different endpoints to create json file backups  and importing into the local database and creating job records on the site. Built a custom search for helping to narrow down their results based on numerous options"
+  },
+  {
+    "title": "BAMF",
+    "url": "https://bamfgc.com",
+    "type": "personal",
+    "image": "bamfgc.png",
+    "description": "Developed and designed BAMF's marketing site with jekyll and riotjs"
+  },
+  {
+    "title": "Nussmeyer Tree Service",
+    "url": "https://nussmeyertree.com/",
+    "type": "personal",
+    "image": "nussmeyertree.png",
+    "description": "A simple marketing site for a friend of mine in Jekyll and hosted on netlify"
+  },
+  {
+    "title": "Craft Airtable",
+    "url": "https://github.com/mdxprograms/craft-airtable",
+    "type": "personal",
+    "image": "octocat.png",
+    "description": "Craft cms plugin that adds a CRUD interface for airtable bases and tables"
+  },
+  {
+    "title": "Jekyll Complete",
+    "url": "https://github.com/mdxprograms/jekyll-complete",
+    "type": "personal",
+    "image": "octocat.png",
+    "description": "Custom Jekyll boilerplate that leverages seo, admin, sitemap, maps, feed, api, pagination and netlify deployment"
+  },
+  {
+    "title": "Jekyll Webpack React",
+    "url": "https://github.com/mdxprograms/jekyll-starter",
+    "type": "personal",
+    "image": "octocat.png",
+    "description": "Jekyll starter using react, webpack and a multi-threaded rake task for development processing"
+  },
+  {
+    "title": "Jekyll Pug Generator",
+    "url": "https://github.com/mdxprograms/pug-jekyll-plugin",
+    "type": "personal",
+    "image": "octocat.png",
+    "description": "A generator for Jekyll to use Pug (previously Jade) markup"
+  }
+]
