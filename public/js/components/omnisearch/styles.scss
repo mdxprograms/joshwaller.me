@@ -1,0 +1,48 @@
+[data-omnisearch] {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  text-align: center;
+  width: 15rem;
+
+  input {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #75b5aa;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: 0;
+    padding: .5rem;
+    width: 100%;
+
+    &::placeholder {
+      color: #75b5aa;
+    }
+  }
+
+  ul {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px 0 #eee;
+    list-style: none;
+    margin: .5rem 0;
+    padding-left: 0;
+  }
+
+  ul li {
+    color: #75b5aa;
+    cursor: pointer;
+    padding: .5rem 0;
+  }
+
+  ul li:hover {
+    background: #75b5aa;
+    color: #fff;
+  }
+
+  a {
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+  }
+}

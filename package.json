@@ -1,0 +1,28 @@
+{
+  "name": "joshwaller.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify public/js/site.js -t scssify -o public/js/bundle.js",
+    "build": "browserify public/js/site.js -t scssify -o public/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdxprograms/joshwaller.me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdxprograms/joshwaller.me/issues"
+  },
+  "homepage": "https://github.com/mdxprograms/joshwaller.me#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "prettier": "^1.13.4",
+    "scssify": "^3.0.1",
+    "watchify": "^3.11.0"
+  }
+}
