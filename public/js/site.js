@@ -1,7 +1,10 @@
-const sidenav = require('./sidenav');
-const omnisearch = require('./components/omnisearch');
+const sidenav = require("./sidenav");
+const omnisearch = require("./components/omnisearch");
+const axios = require("axios");
 
 document.addEventListener("DOMContentLoaded", function() {
   sidenav.init();
-  omnisearch(["hello", "josh", "byo", "animalo", "orange", "banoana", "grapo"]);
+  axios
+    .get("https://jsonplaceholder.typicode.com/posts")
+    .then(res => omnisearch(res.data.map(post => post.title)));
 });
