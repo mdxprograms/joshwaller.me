@@ -241,15 +241,24 @@ We are also triggering antd's notification component for a nice touch to let the
 
 ```jsx
 render() {
+  const contentStyle = {
+    padding: "0 50px",
+    margin: "1rem 0"
+  };
+
+  const inputStyle = {
+    margin: "1rem 0"
+  };
+
   return (
     <Layout>
-      <Layout.Content style={{ padding: "0 50px", margin: "1rem 0" }}>
+      <Layout.Content style={contentStyle}>
         <Input
           placeholder="New Todo"
           size="large"
           type="text"
           onKeyDown={this.handleAddTodo}
-          style={{ margin: "1rem 0" }}
+          style={inputStyle}
         />
 
         <div className="todos-stats">

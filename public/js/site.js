@@ -1,41 +1,4 @@
-const site = {};
-
-site.sidenav = {
-  el: document.querySelector('.sidebar'),
-  init: function() {
-    const profileImg = document.createElement("img");
-    this.addProfileImage(profileImg);
-  },
-  imageTilt: "right",
-  addProfileImage: function (img) {
-    img.setAttribute("src", "https://avatars3.githubusercontent.com/u/1900735?s=460&v=4")
-    img.setAttribute("style", `
-      border-radius: 50%;
-      box-shadow: 0 0 1rem #333;
-      right: 2rem;
-      position: absolute;
-      top: 18rem;
-      transition: all 500ms ease-in-out;
-      transform: rotateZ(-15deg);
-      width: 4rem;
-    `);
-
-    let self = this;
-
-    img.addEventListener("mouseenter", function(e) {
-      if (self.imageTilt === "right") {
-        e.target.style.transform = "rotateZ(15deg)";
-        self.imageTilt = "left";
-      } else {
-        e.target.style.transform = "rotateZ(-360deg)";
-        self.imageTilt = "right"
-      }
-    });
-
-    this.el.append(img)
-  }
-};
-
-document.addEventListener("DOMContentLoaded", function() {
-  site.sidenav.init();
-});
+parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRequire,o="function"==typeof require&&require;function u(n,t){if(!r[n]){if(!e[n]){var f="function"==typeof parcelRequire&&parcelRequire;if(!t&&f)return f(n,!0);if(i)return i(n,!0);if(o&&"string"==typeof n)return o(n);var c=new Error("Cannot find module '"+n+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[n][1][r]||r};var l=r[n]=new u.Module(n);e[n][0].call(l.exports,p,l,l.exports,this)}return r[n].exports;function p(e){return u(p.resolve(e))}}u.isParcelRequire=!0,u.Module=function(e){this.id=e,this.bundle=u,this.exports={}},u.modules=e,u.cache=r,u.parent=i,u.register=function(r,n){e[r]=[function(e,r){r.exports=n},{}]};for(var f=0;f<n.length;f++)u(n[f]);if(n.length){var c=u(n[n.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=c:"function"==typeof define&&define.amd?define(function(){return c}):t&&(this[t]=c)}return u}({1:[function(require,module,exports) {
+var t={};t.sidenav={el:document.querySelector(".sidebar"),init:function(){var t=document.createElement("img");this.addProfileImage(t)},imageTilt:"right",addProfileImage:function(t){t.setAttribute("src","https://avatars3.githubusercontent.com/u/1900735?s=460&v=4"),t.setAttribute("style","\n      border-radius: 50%;\n      box-shadow: 0 0 1rem #333;\n      right: 2rem;\n      position: absolute;\n      top: 18rem;\n      transition: all 500ms ease-in-out;\n      transform: rotateZ(-15deg);\n      width: 4rem;\n    ");var e=this;t.addEventListener("mouseenter",function(t){"right"===e.imageTilt?(t.target.style.transform="rotateZ(15deg)",e.imageTilt="left"):(t.target.style.transform="rotateZ(-360deg)",e.imageTilt="right")}),this.el.append(t)}},document.addEventListener("DOMContentLoaded",function(){t.sidenav.init()});
+},{}]},{},[1], null)
+//# sourceMappingURL=/site.map
