@@ -1,7 +1,7 @@
 desc "jekyll serve"
 task :jekyll_serve do
   puts "Jekyll running @ http://localhost:4000"
-  system("bundle exec jekyll s -w")
+  system("bundle exec jekyll b -w")
 end
 
 desc "parcel watch"
