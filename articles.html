@@ -1,0 +1,12 @@
+---
+title: Articles
+layout: default
+permalink: /articles/
+---
+
+<section class="mw7 center avenir">
+    <h2 class="baskerville fw1 ph3 ph0-l">{{ site.data.articles | size }} Articles</h2>
+    {% for article in site.data.articles %}
+        {% include article_preview.html article=article %}
+    {% endfor %}
+</section>
