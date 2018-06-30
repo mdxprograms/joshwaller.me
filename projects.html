@@ -9,13 +9,6 @@ css:
 <section class="w7 center">
     <h2 class="f3 fw4 pa3 mv0">Projects</h2>
     {% for project in site.data.projects %}
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-        <a target="_blank" href="{{ project.url }}" class="ph2 ph0-ns pb3 link db">
-            <div class="aspect-ratio aspect-ratio--1x1">
-                <img style="background-image:url(/public/images/projects/{{project.image}});" class="db bg-center cover aspect-ratio--object" />
-            </div>
-            <h3 class="f5 f4-ns mb0 black-90">{{ project.title }}</h3>
-        </a>
-    </article>
+        {% include project_card.html project=project %}
     {% endfor %}
 </section>

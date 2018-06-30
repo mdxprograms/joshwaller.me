@@ -14,6 +14,7 @@ kramdown:
   syntax_highlighter_opts:
     disable: true
 permalink: "/blog/:slug"
+profile_img: "https://avatars3.githubusercontent.com/u/1900735?s=460&v=4"
 baseurl: "/"
 url: https://mdxprograms.github.io
 author:

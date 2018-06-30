@@ -104,37 +104,5 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   // Override the current require with this new one
   return newRequire;
 })({1:[function(require,module,exports) {
-var site = {};
 
-site.sidenav = {
-  el: document.querySelector(".sidebar"),
-  init: function init() {
-    var profileImg = document.createElement("img");
-    this.addProfileImage(profileImg);
-  },
-  imageTilt: "right",
-  addProfileImage: function addProfileImage(img) {
-    img.setAttribute("src", "https://avatars3.githubusercontent.com/u/1900735?s=460&v=4");
-    img.setAttribute("style", "\n      border-radius: 50%;\n      box-shadow: 0 0 1rem #333;\n      right: 2rem;\n      position: absolute;\n      top: 18rem;\n      transition: all 500ms ease-in-out;\n      transform: rotateZ(-15deg);\n      width: 4rem;\n    ");
-
-    var self = this;
-
-    img.addEventListener("mouseenter", function (e) {
-      if (self.imageTilt === "right") {
-        e.target.style.transform = "rotateZ(15deg)";
-        self.imageTilt = "left";
-      } else {
-        e.target.style.transform = "rotateZ(-360deg)";
-        self.imageTilt = "right";
-      }
-    });
-
-    this.el.append(img);
-  }
-};
-
-document.addEventListener("DOMContentLoaded", function () {
-  site.sidenav.init();
-});
 },{}]},{},[1], null)
-//# sourceMappingURL=/site.map
