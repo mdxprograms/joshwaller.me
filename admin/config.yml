@@ -23,14 +23,3 @@ collections:
         widget: "list"
         field:
           - {label: "Name", name: "name", widget: "string"}
-
-  - name: "articles"
-    label: "Articles"
-    files: "_data/articles.json"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "string"}
-      - {label: "Content", name: "content", widget: "markdown"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
