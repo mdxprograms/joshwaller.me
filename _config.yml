@@ -1,5 +1,6 @@
 ---
 title: Josh Waller
+description: A Father, Hustband, Frontend Engineer, Musician, and Comic Book Junkie
 timezone: America/New_York
 collections:
   posts:
@@ -16,11 +17,15 @@ kramdown:
 permalink: "/blog/:slug"
 profile_img: "https://avatars3.githubusercontent.com/u/1900735?s=460&v=4"
 baseurl: "/"
-url: https://mdxprograms.github.io
-author:
-  name: Josh Waller
-  url: https://twitter.com/mdxprograms
+url: https://joshwaller.me
+author: Josh Waller
+twitter:
+  username: mdxprograms
+  card: summary
 paginate: 5
 github:
   url: https://github.com/mdxprograms
-  repo: https://github.com/mdxprograms/mdxprograms.github.io
+  repo: https://github.com/mdxprograms/joshwaller.me
+plugins:
+  - jekyll-seo-tag
+
