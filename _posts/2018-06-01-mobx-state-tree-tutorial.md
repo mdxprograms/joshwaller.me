@@ -1,12 +1,12 @@
 ---
-title: MobX State Tree Tutorial
-date: 2018-06-01 13:00:00 -04:00
-categories:
-- react
-- mobx
-- tutorial
-excerpt_separator: "<!--more-->"
 layout: post
+title: MobX State Tree Tutorial
+date: 2018-06-01T17:00:00.000Z
+featured_image: /public/images/uploads/17475736.png
+categories:
+  - react
+  - mobx
+  - tutorial
 ---
 
 In this tutorial we are going to use the following:
