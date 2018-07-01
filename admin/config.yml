@@ -25,10 +25,13 @@ collections:
           - {label: "Name", name: "name", widget: "string"}
   - name: "articles"
     label: "Articles"
-    file: "_data/articles.json"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "string"}
-      - {label: "Content", name: "content", widget: "markdown"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
+    files:
+      - label: "Article"
+        name: "article"
+        file: "_data/articles.json"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Link", name: "link", widget: "string"}
+          - {label: "Author", name: "author", widget: "string"}
