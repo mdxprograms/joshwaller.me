@@ -21,7 +21,14 @@
   },
   "homepage": "https://github.com/mdxprograms/joshwaller.me#readme",
   "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "live-server": "^1.2.0",
     "parcel-bundler": "^1.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "hyperapp": "^1.2.6"
   }
 }

@@ -1,0 +1,7 @@
+select {
+  border: none;
+  height: 2.5rem;
+  text-indent: .5rem;
+  min-width: 10rem;
+  outline: 0;
+}
