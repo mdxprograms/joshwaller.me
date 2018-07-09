@@ -28,4 +28,12 @@ github:
   repo: https://github.com/mdxprograms/joshwaller.me
 plugins:
   - jekyll-seo-tag
-
+exclude:
+  - "node_modules"
+  - ".git"
+  - "_lib"
+  - "package.json"
+  - "package-lock.json"
+  - "Gemfile"
+  - "Rakefile"
+  - "README.md"
