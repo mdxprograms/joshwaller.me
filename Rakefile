@@ -1,5 +1,3 @@
-require_relative "./_lib/generate_music_api"
-
 desc "jekyll serve"
 task :jekyll_serve do
   puts "Jekyll running @ http://localhost:4000"
@@ -27,17 +25,10 @@ task :start do
   threads.each { |thread| thread.join }
 end
 
-desc "Generate Music API files"
-task :generate_music_api do
-  generate_music_api
-end
-
 desc "Run build"
 task :build do
   system("echo '===Compile js==='")
   system("npm run build:js")
-  system("echo '===Generating music api==='")
-  generate_music_api
   system("echo '===Build Jekyll==='")
   system("bundle exec jekyll b")
 end

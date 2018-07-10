@@ -1,1 +1,11 @@
-[{"artist":"radiohead","url":"/api/music/radiohead.json"},{"artist":"steelydan","url":"/api/music/steelydan.json"},{"artist":"deftones","url":"/api/music/deftones.json"}]
+---
+---
+
+[
+  {% for artist in site.music %}
+    {
+      "name": "{{artist.name}}",
+      "albums": {{artist.albums|jsonify}}
+    }{% unless forloop.last%},{% endunless %}
+  {% endfor %}
+]

@@ -7531,8 +7531,10 @@ var actions = {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.next = 2;
-                return _axios2.default.get("/api/music/" + artistName + ".json").then(function (res) {
-                  return res.data;
+                return _axios2.default.get("/api/music.json").then(function (res) {
+                  return res.data.find(function (artist) {
+                    return artist.name === artistName;
+                  });
                 });
 
               case 2:
@@ -7660,8 +7662,8 @@ var view = function view(state, actions) {
       state.artists.map(function (item) {
         return (0, _hyperapp.h)(
           "option",
-          { value: item.artist, key: item.artist },
-          item.artist
+          { value: item.name, key: item.name },
+          item.name
         );
       })
     ),

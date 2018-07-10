@@ -20,8 +20,8 @@ const actions = {
 
   fetchArtist: artistName => async (state, actions) => {
     const artist = await axios
-      .get(`/api/music/${artistName}.json`)
-      .then(res => res.data);
+      .get(`/api/music.json`)
+      .then(res => res.data.find(artist => artist.name === artistName));
     actions.saveCurrentVideoUrl("");
     actions.saveCurrentArtist(artist);
   },
@@ -83,8 +83,8 @@ const view = (state, actions) => (
         Select an Artist
       </option>
       {state.artists.map(item => (
-        <option value={item.artist} key={item.artist}>
-          {item.artist}
+        <option value={item.name} key={item.name}>
+          {item.name}
         </option>
       ))}
     </select>

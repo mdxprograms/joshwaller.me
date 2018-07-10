@@ -9,6 +9,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  music:
+    title: Music
+    output: false
 highlighter: none
 markdown: kramdown
 kramdown:

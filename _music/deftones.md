@@ -1,3 +1,4 @@
+---
 name: Deftones
 albums:
   - title: Diamond Eyes
@@ -6,3 +7,4 @@ albums:
   - title: White Pony
     url: "https://www.youtube.com/watch?v=NQXKrdZwd-k&list=PL7FEF54F3A45A687E"
     img: "https://images-na.ssl-images-amazon.com/images/I/51BXwSNRwIL._SY355_.jpg"
+---
