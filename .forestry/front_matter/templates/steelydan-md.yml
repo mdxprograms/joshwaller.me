@@ -1,0 +1,33 @@
+---
+label: Artist
+hide_body: true
+is_partial: false
+fields:
+- name: name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+- name: albums
+  label: Albums
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: img
+    label: Img
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+pages:
+- _music/king-tubby.md

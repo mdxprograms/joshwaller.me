@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 collections:
+- path: _music
+  label: Music
+  create: all
 - path: _uploads
   label: Uploads
   create: all
