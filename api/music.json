@@ -1,8 +1,10 @@
 ---
 ---
 
+{% assign artists = site.music | sort: "name" %}
+
 [
-  {% for artist in site.music %}
+  {% for artist in artists %}
     {
       "name": "{{artist.name}}",
       "albums": {{artist.albums|jsonify}}
