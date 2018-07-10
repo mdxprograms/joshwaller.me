@@ -1,5 +1,7 @@
 ---
 title: Using hyperapp in Jekyll
 layout: default
-date: 2018-07-10 00:00:00 +0000
+date: 2018-07-11 22:15:43 -0400
+categories: []
+featured_image: ''
 ---
