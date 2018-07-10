@@ -31,3 +31,4 @@ fields:
   default: ''
 pages:
 - _music/king-tubby.md
+- _posts/using-hyperapp-in-jekyll.md
