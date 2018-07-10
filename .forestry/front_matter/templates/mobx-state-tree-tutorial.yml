@@ -28,3 +28,5 @@ fields:
   type: file
   hidden: false
   default: ''
+pages:
+- _posts/using-hyperapp-in-jekyll.md
