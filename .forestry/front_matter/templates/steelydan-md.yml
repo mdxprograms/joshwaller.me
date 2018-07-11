@@ -30,4 +30,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _music/pantera.md
 - _music/king-tubby.md
