@@ -1,5 +1,12 @@
 [
   {
+    "title": "Creating dynamic layouts with Jekyll",
+    "image": "https://cdn-images-1.medium.com/max/2000/1*rS4n3wyRac82CtdSpi3Mpg.jpeg",
+    "content": "How we used YAML front-matter to massively change the layout for different posts on our agency’s new website",
+    "link": "https://medium.com/tmw-interactive/creating-dynamic-layouts-with-jekyll-3bbb7fc57d1f",
+    "author": "Zander Martineau"
+  },
+  {
     "title": "Building a static blog using Jekyll and Strapi",
     "image": "https://cdn-images-1.medium.com/max/1600/1*wXkq3eCDwOpI8U9ikxzQAw.jpeg",
     "content": "A static website contains Web pages with fixed content. Technically, it is a simple list of HTML files, which displays the same information to every visitor. Unlike dynamic websites, they do not require any back-end programming or database. Publishing a static website is easy: the files are uploaded on a simple Web server or storage provider. The two main advantages of static websites are security and speed: there is no database so it can not be hacked and there is no need to render a page for each request, which makes Web browsing faster.",
