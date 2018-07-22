@@ -1,69 +1,58 @@
 [
   {
-    "title":
-      "Why Learn Functional Programming in JavaScript? (Composing Software)",
-    "image":
-      "https://cdn-images-1.medium.com/max/1600/1*uVpU7iruzXafhU2VLeH4lw.jpeg",
-    "content":
-      "Forget whatever you think you know about JavaScript, and approach this material with a beginner’s mind. To help you do that, we’re going to review the JavaScript basics from the ground up, as if you’ve never seen JavaScript before. If you’re a beginner, you’re in luck. Finally something exploring ES6 and functional programming from scratch!",
-    "link":
-      "https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257",
+    "title": "Building a static blog using Jekyll and Strapi",
+    "image": "https://cdn-images-1.medium.com/max/1600/1*wXkq3eCDwOpI8U9ikxzQAw.jpeg",
+    "content": "A static website contains Web pages with fixed content. Technically, it is a simple list of HTML files, which displays the same information to every visitor. Unlike dynamic websites, they do not require any back-end programming or database. Publishing a static website is easy: the files are uploaded on a simple Web server or storage provider. The two main advantages of static websites are security and speed: there is no database so it can not be hacked and there is no need to render a page for each request, which makes Web browsing faster.",
+    "link": "https://medium.com/strapi/building-a-static-blog-using-jekyll-and-strapi-123660ac9bde",
+    "author": "Strapi"
+  },
+  {
+    "title": "Why Learn Functional Programming in JavaScript? (Composing Software)",
+    "image": "https://cdn-images-1.medium.com/max/1600/1*uVpU7iruzXafhU2VLeH4lw.jpeg",
+    "content": "Forget whatever you think you know about JavaScript, and approach this material with a beginner’s mind. To help you do that, we’re going to review the JavaScript basics from the ground up, as if you’ve never seen JavaScript before. If you’re a beginner, you’re in luck. Finally something exploring ES6 and functional programming from scratch!",
+    "link": "https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257",
     "author": "Eric Elliott"
   },
   {
     "title": "A Quick Introduction to Functional Javascript",
-    "image":
-      "https://cdn-images-1.medium.com/fit/c/120/120/0*QUGZg0AJIt-ThurD.",
-    "content":
-      "Functional programming is one of the hottest trends right now and there’s a lot of good arguments about why one might want to utilize it in their code. I’m not going to go into a lot of detail about all of the concepts and ideas of functional programming here, however I will try to provide a demonstrative guide of how to use functional programming in everyday situations involving Javascript.",
-    "link":
-      "https://hackernoon.com/a-quick-introduction-to-functional-javascript-7e6fe520e7fa",
+    "image": "https://cdn-images-1.medium.com/fit/c/120/120/0*QUGZg0AJIt-ThurD.",
+    "content": "Functional programming is one of the hottest trends right now and there’s a lot of good arguments about why one might want to utilize it in their code. I’m not going to go into a lot of detail about all of the concepts and ideas of functional programming here, however I will try to provide a demonstrative guide of how to use functional programming in everyday situations involving Javascript.",
+    "link": "https://hackernoon.com/a-quick-introduction-to-functional-javascript-7e6fe520e7fa",
     "author": "Angelos Chalaris"
   },
   {
     "title": "JavaScript: What Are Pure Functions And Why Use Them?",
-    "image":
-      "https://cdn-images-1.medium.com/max/800/1*338GozzJHlJ1R_IXbJdsUg.png",
-    "content":
-      "The first time I heard the term “Pure Function” I was confused. What was wrong with a regular function? Why does it need to be pure? Why do I even need pure functions?",
-    "link":
-      "https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c",
+    "image": "https://cdn-images-1.medium.com/max/800/1*338GozzJHlJ1R_IXbJdsUg.png",
+    "content": "The first time I heard the term “Pure Function” I was confused. What was wrong with a regular function? Why does it need to be pure? Why do I even need pure functions?",
+    "link": "https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c",
     "author": "James Jeffery"
   },
   {
     "title": "How to Organize React Files Before It’s Messed Up",
     "image": "https://cdn-images-1.medium.com/max/800/0*sAeTn5OiR-vgPqtQ.",
-    "content":
-      "You got to keep your home organized to find things when you’re in need. That’s also correct for programming too. Are you putting your socks into the correct drawer? Let’s find it out.",
-    "link":
-      "https://engineering.opsgenie.com/how-to-organize-react-files-before-its-messed-up-c85387f691be",
+    "content": "You got to keep your home organized to find things when you’re in need. That’s also correct for programming too. Are you putting your socks into the correct drawer? Let’s find it out.",
+    "link": "https://engineering.opsgenie.com/how-to-organize-react-files-before-its-messed-up-c85387f691be",
     "author": "Doğuşcan Namal"
   },
   {
     "title": "React render props",
     "image": "https://cdn-images-1.medium.com/max/800/0*12RAH3c4D6R_1_9q.",
-    "content":
-      "When I started working in Stored, the Jan Cassio was showing me the code of one of the repositories there, and when I was looking I saw a pattern that looked like a High Order Component, but he told me it was a pattern he had seen a brother talk, and called render prop.",
+    "content": "When I started working in Stored, the Jan Cassio was showing me the code of one of the repositories there, and when I was looking I saw a pattern that looked like a High Order Component, but he told me it was a pattern he had seen a brother talk, and called render prop.",
     "link": "https://medium.com/@stored/react-render-props-1abd2a04b020",
     "author": "Stored E-commerce"
   },
   {
     "title": "Mobx React — Best Practices",
-    "image":
-      "https://cdn-images-1.medium.com/max/800/1*fVyLVvnbisXOgh1v3EhTrg.png",
-    "content":
-      "In this article I want to show you common best practices for using React with mobx. I will present them as rules. So whenever you come to a specific problem, try to solve it while sticking to these rules.",
+    "image": "https://cdn-images-1.medium.com/max/800/1*fVyLVvnbisXOgh1v3EhTrg.png",
+    "content": "In this article I want to show you common best practices for using React with mobx. I will present them as rules. So whenever you come to a specific problem, try to solve it while sticking to these rules.",
     "link": "https://medium.com/dailyjs/mobx-react-best-practices-17e01cec4140",
     "author": "Daniel Bischoff"
   },
   {
     "title": "Setting up a React project from scratch",
-    "image":
-      "https://cdn-images-1.medium.com/max/1600/1*6FvamLHr0JLPeUD_pyQ9mQ.png",
-    "content":
-      "There are lots of react project seeds we can use in place of starting a project from scratch but then they come with a lot of boilerplate hard to make sense for a beginner who is just starting out.",
-    "link":
-      "https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97",
+    "image": "https://cdn-images-1.medium.com/max/1600/1*6FvamLHr0JLPeUD_pyQ9mQ.png",
+    "content": "There are lots of react project seeds we can use in place of starting a project from scratch but then they come with a lot of boilerplate hard to make sense for a beginner who is just starting out.",
+    "link": "https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97",
     "author": "Manoj Singh Negi"
   }
 ]
