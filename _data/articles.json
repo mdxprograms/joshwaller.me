@@ -1,5 +1,12 @@
 [
   {
+    "title": "Jousting with Jekyll",
+    "image": "https://cdn-images-1.medium.com/fit/c/120/120/1*VpV9BhrQ95Hr0oGKpawX8w.jpeg",
+    "content": "One responsibility of the support team here at Highrise is to maintain our Extras page.",
+    "link": "https://m.signalvnoise.com/jousting-with-jekyll-20687ceea042",
+    "author": "Chris Gallo"
+  },
+  {
     "title": "How I’m Using Jekyll in 2016",
     "image": "https://cdn-images-1.medium.com/max/2000/1*KrnBoACoZmg5JVzPyOJOuw.jpeg",
     "content": "I first started using Jekyll — a static site generator, back in 2012. In the four years since, it has indirectly introduced me to a host of new tools and ways of building websites. Hell, I wasn’t even using version control when developing this site — so you know a lot has changed.",
