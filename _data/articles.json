@@ -1,5 +1,12 @@
 [
   {
+    "title": "How I’m Using Jekyll in 2016",
+    "image": "https://cdn-images-1.medium.com/max/2000/1*KrnBoACoZmg5JVzPyOJOuw.jpeg",
+    "content": "I first started using Jekyll — a static site generator, back in 2012. In the four years since, it has indirectly introduced me to a host of new tools and ways of building websites. Hell, I wasn’t even using version control when developing this site — so you know a lot has changed.",
+    "link": "https://medium.com/@mmistakes/how-i-m-using-jekyll-in-2016-750e1e4a8cf9",
+    "author": "Michael Rose"
+  },
+  {
     "title": "Creating dynamic layouts with Jekyll",
     "image": "https://cdn-images-1.medium.com/max/2000/1*rS4n3wyRac82CtdSpi3Mpg.jpeg",
     "content": "How we used YAML front-matter to massively change the layout for different posts on our agency’s new website",
