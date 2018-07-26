@@ -1,5 +1,12 @@
 [
   {
+    "title": "Concatenate JS for Free with Jekyll",
+    "image": "https://pbs.twimg.com/profile_images/799378338586521605/UpZChaWJ_400x400.jpg",
+    "content": "This one’s a stupid little trick, but I literally use it all the time, and I’m always surprised how novel people find it when I explain it to them. Basically: use Liquid includes in a bundle.js file, and let Jekyll smash all your .js crap together for you.",
+    "link": "https://distresssignal.org/concatenate-js-for-free-with-jekyll",
+    "author": "Bryan Schuetz"
+  },
+  {
     "title": "Jousting with Jekyll",
     "image": "https://cdn-images-1.medium.com/fit/c/120/120/1*VpV9BhrQ95Hr0oGKpawX8w.jpeg",
     "content": "One responsibility of the support team here at Highrise is to maintain our Extras page.",
