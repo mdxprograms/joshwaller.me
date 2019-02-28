@@ -9,9 +9,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-  music:
-    title: Music
-    output: false
+  sandbox:
+    title: Sandbox
+    output: true
+    permalink: /:collection/:name
 highlighter: none
 markdown: kramdown
 kramdown:

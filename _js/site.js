@@ -1,2 +1,2 @@
 import "babel-polyfill";
-import music from "./music";
+import sandbox from "./sandbox"
